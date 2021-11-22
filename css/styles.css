@@ -377,9 +377,6 @@ body {
 .clients-item {
     width: 170px;
     height: 92px;
-    border: 1px solid #afb1b8;
-    box-sizing: border-box;
-    border-radius: 4px;
     margin-left: 30px;
 }
 .clients-item:first-child {
@@ -391,6 +388,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 4px;
     color: var(--icon-color);
 }
 .clients-item-link:hover,
